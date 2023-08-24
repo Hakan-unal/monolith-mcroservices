@@ -9,7 +9,7 @@ const App = () => {
   const [translate, setTranslate] = useState<boolean>(false)
   const blockContent = "test ajkshd jkash jkashd jkashdjk ahsdjk ashd kjas "
 
-  return (<Row>
+  return (<Row justify={"center"}>
     <Col sm={24}>
       <Switch unCheckedChildren={<div>TR</div>} checkedChildren={<div>EN</div>} onChange={(checked) => setTranslate(checked)} />
     </Col>
@@ -24,7 +24,7 @@ const App = () => {
 
     </Col>
     <Col sm={8}>
-      <Image width={"80%"} src='https://cdn-blog.scalablepath.com/uploads/2023/01/spa-vs-mpa-architecture-1024x576.png' />
+      <Image width={"80%"} src='https://media.licdn.com/dms/image/D4D22AQG_QVJz1Dh42Q/feedshare-shrink_800/0/1692775243181?e=1695859200&v=beta&t=_GQ6FrtZ0WJSAZa3vuZf5NFOS1Bb9M_5EF3_QRBQEB4' />
     </Col>
     <Col sm={16}>
       <Title level={2}>{title2(translate)}</Title>
@@ -53,8 +53,8 @@ const App = () => {
       </Paragraph>
     </Col>
 
-    <Col xs={{ span: 8, offset: 8 }}>
-      <Image width={"100%"} src='https://cdn-blog.scalablepath.com/uploads/2022/12/spa-va-mpa-key-features-1024x800.png' />
+    <Col xs={16} sm={12}>
+      <Image width={"100%"} src='http://mustafabas.me/Images/Uploads/microservices-and-monolithic-architecturesjpg_size.jpg' />
     </Col>
 
     <Col sm={24}>
